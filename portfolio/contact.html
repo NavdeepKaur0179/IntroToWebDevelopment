@@ -1,78 +1,83 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <!--
     Name: Navdeep Kaur 
     Date Created: 24/05/2021
     Most recent revision:
 -->
-<html lang="en"> 
-    <head> 
-        <title>Contact</title>	
-		<link href="styles/main.css" type="text/CSS" rel="stylesheet"/>
-		<link href="styles/contact_form.css" type="text/CSS" rel="stylesheet"/>
+<html lang="en">
 
-    </head> 
-    
-    <body>
-        <header>
-		<h1>Contacts Me</h1>			
-        </header>
+<head>
+    <title>Contact</title>
+    <link href="styles/main.css" type="text/CSS" rel="stylesheet" />
+    <link href="styles/contact_form.css" type="text/CSS" rel="stylesheet" />
 
-        <nav class="border">
-		<p><a href="index.html">Home</a></p>
-		<p><a href="projects.html">Projects</a></p>
-		<p><a href="contact.html">Contact</a></p>
-		<p><a href="testimonials.html">Testimonials</a></p>
-		</nav>		
-		<main>
-		<h2> Information Request</h2>
-			<form action="submit.html" method="post">
-			<label for="fname">First Name:</label>
-			<br>
-			<input type="text" name="fname" id="fname"/>
-			<br/>
-			<br/>
-			<label for="lname">Last Name:</label>
-			<br/>
-			<input type="text" name="lname" id="lname"/>
-			<br/>
-			<br/>
-			<label for="ph_number">Phone Number:</label>
-			<br>
-			<input type="text" name="ph_number" id="ph_number"/>
-			<br>
-			<br/>
-			<label for="call_time">Best time to call:</label>
-			<br/>
-			<select name="call_time" id="call_time">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <nav class="border">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="pastExperience.html">Projects</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="testimonials.html">Testimonials</a></p>
+        <div class="clear-float"> </div>
+    </nav>
+    <main>
+        <h2> Information Request</h2>
+        <form action="submit.html" method="post">
+            <label for="fname">First Name:</label>
+            <br>
+            <input type="text" name="fname" id="fname" />
+            <br/>
+            <br/>
+            <label for="lname">Last Name:</label>
+            <br/>
+            <input type="text" name="lname" id="lname" />
+            <br/>
+            <br/>
+            <label for="ph_number">Phone Number:</label>
+            <br>
+            <input type="text" name="ph_number" id="ph_number" />
+            <br>
+            <br/>
+            <label for="call_time">Best time to call:</label>
+            <br/>
+            <select name="call_time" id="call_time">
 				<option value="default">--Select one--</option>
 				<option value="morning">Morning (08:00am to 12:00 pm Eastern)</option>
 				<option value="afternoon">Afternoon (12:00pm to 05:00 pm Eastern)</option>
 				<option value="evening">Evening (5:00pm to 08:00 pm Eastern)</option>
 			</select>
-			<br/>
-			<br/>
-			<fieldset>
-			<legend>I am interested in(check all that apply)</legend>
-			<input type="checkbox" name="interests" value="frontEnd" id="frontEnd"/><label for="frontEnd">Front-end Web Development</label><br/>
-			<input type="checkbox" name="interests" value="backEnd" id="backEnd"/><label for="backEnd">Back-end Web Development</label><br/>
-			<input type="checkbox" name="interests" value="database"/><label for="database">Database Design<br/>
+            <br/>
+            <br/>
+            <fieldset>
+                <legend>I am interested in(check all that apply)</legend>
+                <input type="checkbox" name="interests" value="frontEnd" id="frontEnd" /><label for="frontEnd">Front-end Web Development</label><br/>
+                <input type="checkbox" name="interests" value="backEnd" id="backEnd" /><label for="backEnd">Back-end Web Development</label><br/>
+                <input type="checkbox" name="interests" value="database" /><label for="database">Database Design<br/>
 			</label>
-			</fieldset>
-			<br/>
-			<fieldset>
-			<legend>I have filled in client questionnaire form:</legend>
-			<input type="radio" name="questionnaire" value="yes"/>Yes<br/>
-			<input type="radio" name="questionnaire" value="no"/>No<br/>	
-			</fieldset>			
-			<br/>
-			<label for="add_info">Additional Info:</label>
-			<br/>
-			<textarea name="add_info"></textarea><br/>			
-			<br/>
-			<input type="submit" name="submit" value="Submit"/><br/>			
-			</form>		
-		</main>
-        <footer>
-        </footer>
-    </body> 
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>I have filled in client questionnaire form:</legend>
+                <input type="radio" name="questionnaire" value="yes" />Yes<br/>
+                <input type="radio" name="questionnaire" value="no" />No<br/>
+            </fieldset>
+            <br/>
+            <label for="add_info">Additional Info:</label>
+            <br/>
+            <textarea name="add_info"></textarea><br/>
+            <br/>
+            <input type="submit" name="submit" value="Submit" /><br/>
+            <hr/>
+        </form>
+    </main>
+    <footer>
+        <hr/>
+        <p>&copy; 2021 Navdeep Kaur. All rights reserved.</p>
+    </footer>
+</body>
 </html
