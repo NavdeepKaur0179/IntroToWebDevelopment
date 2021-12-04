@@ -1,0 +1,41 @@
+header,footer
+{
+	text-align:center;	
+}
+header h1
+{
+	font-family: 'BioRhyme', serif;
+	font-family: 'Playball', cursive;"
+}
+main
+{
+	margin:0;
+	padding:0;
+}
+nav{
+	margin-bottom:0;
+	background-color:#f9f9f9;
+}
+nav a{
+	padding:0.5em;	
+}
+
+		nav a:link
+		{
+			color:#5b7d87;
+			text-decoration:underline;
+		}
+		nav a:visited
+		{
+			color:purple;
+		}
+		nav a:hover
+		{
+		font-weight:bold;
+		}
+          
+		nav a:active
+		{			
+			text-decoration:none;
+		}
+		
